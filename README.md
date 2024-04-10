@@ -1,4 +1,6 @@
-<center><h1>formulaire HTML</h1>![HTML](https://img.shields.io/badge/HTML-Developer-orange?logo=html5&logoColor=white)
+<center><h1>formulaire HTML</h1>
+
+![HTML](https://img.shields.io/badge/HTML-Developer-orange?logo=html5&logoColor=white)
 
 Ce projet contient un formulaire HTML simple conçu pour collecter des informations utilisateur. Le formulaire est créé en utilisant HTML pour le style de base.
 
