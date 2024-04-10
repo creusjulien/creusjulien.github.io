@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Myform</title>
+  </head>
+  <body>
+    <h2>Formulaire HTML</h2>
+
+    <form action="/submit_form" method="post">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required /><br /><br />
+
+      <label for="lname">Name:</label>
+      <input type="text" id="lname" name="lname" required /><br /><br />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required /><br /><br />
+
+      <label for="sex">Sex:</label>
+      <input type="text" id="sex" name="sex" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="address">Adress:</label>
+      <input type="text" id="address" name="address" required /><br /><br />
+
+      <div>
+        <label for="postcode">Postal code:</label>
+        <input
+          type="text"
+          id="postcode"
+          name="postcode"
+          maxlength="5"
+          pattern="[0-9]{5}"
+        /><br /><br />
+      </div>
+
+      <div>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required /><br /><br />
+      </div>
+
+      <label for="choix-job">Choose job :</label>
+      <select id="choix-job">
+        <option value="">Select...</option>
+        <option value="developpeur">Développeur</option>
+        <option value="administrateur-systeme">Administrateur système</option>
+        <option value="analyste-programmeur">Analyste programmeur</option>
+        <option value="infirmier">Infirmier</option>
+        <option value="medecin">Médecin</option>
+        <option value="kinésithérapeute">Kinésithérapeute</option>
+        <option value="enseignant">Enseignant</option>
+        <option value="ingenieur">Ingénieur</option>
+        <option value="commercial">Commercial</option></select
+      ><br /><br />
+
+      <label for="nationality">Nationality:</label>
+      <select id="nationality">
+        <option value="">Français(e)</option>
+        <option value="americain">Américain(ne)</option>
+        <option value="canadien">Canadien(ne)</option>
+        <option value="britannique">Britannique</option>
+        <option value="francais">Français(e)</option>
+        <option value="allemand">Allemand(e)</option>
+        <option value="espagnol">Espagnol(e)</option>
+        <option value="italien">Italien(ne)</option>
+        <option value="chinois">Chinois(e)</option>
+        <option value="japonais">Japonais(e)</option>
+        <option value="russe">Russe</option>
+        <option value="bresilien">Brésilien(ne)</option>
+        <option value="australien">Australien(ne)</option>
+        <option value="mexicain">Mexicain(e)</option>
+        <option value="indien">Indien(ne)</option>
+        <option value="sud-africain">Sud-Africain(e)</option>
+        <option value="coreen">Coréen(ne)</option>
+        <option value="neerlandais">Néerlandais(e)</option>
+        <option value="suisse">Suisse</option>
+        <option value="suedois">Suédois(e)</option></select
+      ><br /><br />
+
+      <label for="dob">Date of birth:</label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <label for="pob">Native country:</label>
+      <input type="text" id="pob" name="pob" required /><br /><br />
+
+      <label for="ssn">Social security number:</label>
+      <input
+        type="text"
+        id="ssn"
+        name="ssn"
+        pattern="[12][0-9]{2}(0[1-9]|1[0-2])[0-9]{2}[0-9]{3}[0-9]{3}([0-9]{2})"
+        maxlength="15"
+        required
+      /><br /><br />
+
+      <label for="passport">Passport number:</label>
+      <input
+        type="text"
+        id="passport"
+        name="passport"
+        pattern="[1-9]{2}[a-z]{2}[1-9]{5}"
+        required
+      /><br /><br />
+
+      <label for="issue">Passport issue date:</label>
+      <input type="date" id="issue" name="issue" required /><br /><br />
+
+      <label for="expiry">Passport validity date:</label>
+      <input type="date" id="expiry" name="expiry" required /><br /><br />
+
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>
